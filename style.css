@@ -192,6 +192,11 @@ footer nav a {
   font-weight: 600;
 }
 
+.div-fast a:hover {
+  transition: 0.4s;
+  font-weight: 900;
+}
+
 footer p {
   margin-bottom: 16px;
   max-width: 350px;
