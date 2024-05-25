@@ -171,7 +171,7 @@ header a {
 footer {
   background-color: white;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 0;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -187,16 +187,16 @@ footer nav a {
   text-decoration: none;
   font-weight: 600;
 }
+
+.div-fast a:hover {
+  transition: 0.6s ease-in-out;
+  font-weight: 900;
+}
+
 .div-fast {
   padding-top: 35px;
   font-weight: 600;
 }
-
-.div-fast a:hover {
-  transition: 0.4s;
-  font-weight: 900;
-}
-
 footer p {
   margin-bottom: 16px;
   max-width: 350px;
@@ -205,12 +205,9 @@ footer p a {
   color: #263138;
 }
 
-.img-background {
-  width: 17%;
-  height: auto;
-  padding-top: 50px;
-  z-index: 1;
-  position: relative;
+.links-text {
+  display: flex;
+  gap: 18px;
 }
 
 /* responsive */
