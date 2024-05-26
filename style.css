@@ -45,8 +45,12 @@ header a {
   color: black;
   text-decoration: none;
   font-weight: 800;
+  transition: 0.4s ease-in-out;
 }
 
+.header-links a:hover {
+  font-weight: 1000;
+}
 /* about me  */
 
 #julio {
@@ -188,15 +192,15 @@ footer nav a {
   font-weight: 600;
 }
 
-.div-fast a:hover {
-  transition: 0.6s ease-in-out;
-  font-weight: 900;
-}
-
 .div-fast {
   padding-top: 35px;
   font-weight: 600;
+  transition: 0.6s ease-in-out;
 }
+.div-fast a:hover {
+  font-weight: 900;
+}
+
 footer p {
   margin-bottom: 16px;
   max-width: 350px;
