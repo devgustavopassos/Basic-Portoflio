@@ -238,3 +238,19 @@ footer p a {
   z-index: 1;
   position: relative;
 }
+
+/* responsive */
+
+@media (max-width: 1033px) {
+  #julio,
+  #questions,
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .img-background {
+    opacity: 0;
+  }
+}
